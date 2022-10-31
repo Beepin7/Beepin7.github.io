@@ -1,0 +1,29 @@
+---
+title: "My Introduction"
+date: "2022-10-27"
+output: beamer_presentation
+---
+
+## Biographical Information
+
+-   **Name:** Bipin Poudel
+
+-   **Birthday:** OCTOBER 20
+
+-   **Place I grew up:** Kathmandu, Nepal
+
+-   **Program:** Graduate (Department of Statistics)
+
+-   Expected to graduate by 2024
+
+## Favorite Animal
+
+![Bengal Tiger](BengalTiger.jpg){width="400" height="400"}
+
+## Favorite Plot
+
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(knitr)
+library(ggplot2)
+ggplot(mtcars, aes(x=mpg, y=disp, size=hp, color=factor(cyl)) )+ geom_point()+ggtitle("MPG vs Disp. by Cyl")
+```
