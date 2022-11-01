@@ -27,3 +27,7 @@ library(knitr)
 library(ggplot2)
 ggplot(mtcars, aes(x=mpg, y=disp, size=hp, color=factor(cyl)) )+ geom_point()+ggtitle("MPG vs Disp. by Cyl")
 ```
+
+## My CV 
+Click the link below:
+https://github.com/Beepin7/bipinp.github.io/blob/main/CV.pdf
