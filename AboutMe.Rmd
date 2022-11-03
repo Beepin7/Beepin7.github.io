@@ -30,4 +30,4 @@ ggplot(mtcars, aes(x=mpg, y=disp, size=hp, color=factor(cyl)) )+ geom_point()+gg
 
 ## My CV 
 Click the link below:
-https://beepin7.github.io/CV.pdf
+https://beepin7.github.io/CV.pdf 
